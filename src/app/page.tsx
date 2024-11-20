@@ -1,7 +1,11 @@
+import HotOffers from "@/components/home/HotOffers";
+import TopSelling from "@/components/home/TopSelling";
+
 export default function Home() {
   return (
     <div>
-      <h1>Hello, world!</h1>
+      <HotOffers />
+      <TopSelling />
     </div>
   );
 }
